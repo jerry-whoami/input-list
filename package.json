@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "purge": "filament-purge -i ./public/build/assets/app-c66966b0.css -o ./public/css/app.css"
+  },
+  "dependencies": {
+    "@awcodes/alpine-floating-ui": "^3.5.0",
+    "@awcodes/filament-plugin-purge": "^1.1.1",
+    "laravel-vite-plugin": "^0.7.8",
+    "vite": "^4.4.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+}
